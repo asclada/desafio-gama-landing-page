@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, black, gray);
+}
+
+main {
+    position: relative;
+}
+
+/* ----------------------               HEADER                    --------------------- */
+
+header {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name-loja {
+    padding: 0 20px;
+    color: #fff;
+}
+
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* ----------------------               SECTION 1                    --------------------- */
+
+#section1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black-friday-alert {
+    width: 600px;
+    height: 250px;
+    background: #000;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.black-friday-alert h1 {
+    padding: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.black-friday-alert button {
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    background: yellow;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    margin: 15px auto;
+}
+
+.black-friday-alert button:hover {
+    cursor: pointer;
+    background: rgba(58, 54, 54, 0.75);
+    color: yellow;
+}
+
+/* ----------------------               SECTION 2                    --------------------- */
+
+#section2 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-cadastro {
+    width: 100%;
+    height: 400px;
+    background: rgba(221, 67, 67, 0.4);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.area-cadastro h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.input-field input {
+    outline: none;
+    font-size: 40px;
+    margin: 10px auto;
+    color: #000;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 30px;
+}
+
+#btn-confirmar {
+    height: 70px;
+    font-size: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background: #000;
+}
+
+#btn-confirmar:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----------------------               FOOTER                   --------------------- */
+
+footer {
+    width: 100%;
+    height: 150px;
+}
+
+.contato-footer {
+    width: 100%;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
